@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    header{
+        background-color: blue;
+        color: rgb(255, 0, 0);
+        
+    }
+    header h1{
+        display: none;
+    }
+    main p{
+       color: aliceblue;
+    }
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+main{
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 2em;
+    max-width: 700px;
+    border-radius: 10px;
+    background-color: rgb(50, 129, 197);
+}

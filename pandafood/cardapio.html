@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root{
+    --cor0 : #fa5959ab;
+    --cor1 : #b1020e;
+    --cor2 : #f12331;
+    --cor3 : #332B2B;
+    --cor4 : #FFFFFF;
+    --cor5 : #f0e7a2;
+        }
+        body{
+            text-align: justify;
+        }
+        
+        main{
+            min-width: 300px;
+            max-width: 1000px;
+            width: auto;
+        }
+        article > p{
+            min-width: 300px;
+            max-width: 1000px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        article > section > h2{
+            min-width: 300px;
+            max-width: 1000px;
+            text-align: center;
+            color: black;
+            padding: 15px 0px 10px 0px;
+        }
+
+        section{
+            min-width: 10px;
+            max-width: 1000px;
+            background-color: var(--cor0);
+            margin: auto;
+            width: 50%;
+            padding: 10px 124px 10px 90px;
+            border-radius: 15px;
+            border: 5px solid var(--cor5);
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.274);
+        }
+
+        section#menor{
+            min-width: 300px;
+            max-width: 1000px;
+            padding: 10px 124px 10px 90px;
+        }
+        section > h1{
+            min-width: 100px;
+            max-width: 1000px;
+            text-align: center;
+            margin-left: 16px;
+            background-color: var(--cor2);
+            border-radius: 10px;
+            color: #FFFFFF;
+        }
+
+        section > h2{
+            text-align: center;
+            min-width: 300px;
+            max-width: 1000px;
+            margin-left: -28px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            transition-duration: 0.8s;
+
+        }
+
+        section > h2:hover{
+            min-width: 300px;
+            max-width: 1000px;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.356);
+            color: var(--cor4);
+            background-color: var(--cor2);
+            border-radius: 10px;
+            text-decoration: underline;
+            transition-duration: 0.8s;
+        }
+
+        section> h2 > p{
+            min-width: 300px;
+            max-width: 1000px;
+
+            display: none;
+        }
+
+        section > h2:hover > p{
+            min-width: 300px;
+            max-width: 1000px;
+
+            font-size: 0.8em;
+
+            display: block;
+        }
+
+        ul{
+            min-width: 300px;
+            max-width: 1000px;
+            text-decoration: underline;
+
+            list-style-position: inside;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PandaFood</h1>
+        <h2>Culinária Chinesa</h2>
+    </header>
+    <main>
+        <h4><a href="panda.html" target="_self" rel="prev">Voltar para HOME</a></h4>
+        <article>
+            <h1>Cardápio</h1>
+            <p>Conheça as diversas opções que temos para VOCÊ!</p>
+            <section>
+                <h1>Pratos Maiores</h1>
+                <h2>YAKISOBA
+                    <p>Macarrão YAKISOBA com tamanho e acompanhamentos de acordo com sua preferência!</p>
+                </h2>
+                <br>
+                <ul>TAMANHOS
+                    
+                    <li>Pequeno</li>
+                    <li>Médio</li>
+                    <li>Grande</li>
+                </ul>
+                <br>
+                <ul>OPÇÕES
+                    
+                    <li>YAKISOBA DE CARNE</li>
+                    <li>YAKISOBA DE FRANGO</li>
+                    <li>YAKISOBA MISTO</li>
+                    <li>YAKISOBA VEGETARIANO</li>
+                </ul>
+                <h2>BIFUM
+                    <p>Macarrão feito de ARROZ, mais fino e leve, acompanhado de cenoura, vagem e frango!</p>
+                </h2>
+                <h2>TYAHAN
+                    <p>ARROZ FRITO acompanhado de bacon, cenoura, vagem, cebolinha e frango crispy!</p>
+                </h2>
+                <h2>FRANGO XADREZ
+                    <p>Frango, cebola roxa, cenoura, pimentão (amarelo, verde e vermelho) ACOMPANHADO COM ARROZ!</p>
+                </h2>
+                <h2>CARNE COM BRÓCOLIS
+                    <p>CARNE e BRÓCOLIS acompanhados com arroz!</p>
+                </h2>
+            </section>
+            <br>
+            <section>
+                <h1>Pratos Menores</h1>
+                <h2>BAOZI
+                    <p>Bolinho de massa ARTESANAL, recheiado de carne SUÍNA, cenoura, repolho, cebolinha e gengíbre! </p>
+                </h2>
+                <h2>ROLINHOS PRIMAVERA
+                    <p>Rolinhos FRITOS recheados de acordo com sua escolha do sabor!</p>
+                </h2>
+                <ul>
+                    <li>LEGUMES</li>
+                    <li>QUEIJOS</li>
+                    <li>ROMEU E JULIETA</li>
+                </ul>
+                <h2>GUIOZAS
+                    <p>Massa ARTESANAL! FRITOS OU A VAPOR, recheados de carne suína, cenoura, repolho, cebolinha e gengíbre!</p>
+                </h2>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Agradecemos pela preferência!</p>
+    </footer>
+    
+</body>
+</html>
