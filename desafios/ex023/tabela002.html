@@ -10,6 +10,13 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: -1px;
+            background-color: lightgray;
         }
         td{
             border: 1px solid black;
@@ -21,7 +28,14 @@
             border: 1px solid black;
             padding: 10px;
         }
-
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        thead > tr > th{
+            background-color: gray;
+            position: sticky;
+            top: 0;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -32,10 +46,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>Popilação das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -155,6 +170,11 @@
             </tr>
         </tfoot>    
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla laboriosam harum aspernatur, numquam maxime vero quas perferendis quisquam, doloremque et. Corrupti repudiandae sit ducimus accusantium iure animi a consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta enim quam esse ut tempora vero deserunt consequatur placeat, magni ab debitis quasi eveniet repudiandae error at cupiditate excepturi officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed placeat nostrum, magni dolorem vel, iure architecto veniam molestiae distinctio sint est mollitia iusto voluptatibus ipsam soluta excepturi. Ipsam, vero dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dignissimos placeat delectus fuga aliquid, quis reiciendis asperiores corporis molestias deserunt mollitia officia non sit veritatis laudantium expedita iusto laborum explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil ipsa non quis rerum iure molestiae perspiciatis enim dicta ullam soluta atque cum quas commodi, libero dignissimos expedita fugiat sit?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla laboriosam harum aspernatur, numquam maxime vero quas perferendis quisquam, doloremque et. Corrupti repudiandae sit ducimus accusantium iure animi a consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta enim quam esse ut tempora vero deserunt consequatur placeat, magni ab debitis quasi eveniet repudiandae error at cupiditate excepturi officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed placeat nostrum, magni dolorem vel, iure architecto veniam molestiae distinctio sint est mollitia iusto voluptatibus ipsam soluta excepturi. Ipsam, vero dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dignissimos placeat delectus fuga aliquid, quis reiciendis asperiores corporis molestias deserunt mollitia officia non sit veritatis laudantium expedita iusto laborum explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil ipsa non quis rerum iure molestiae perspiciatis enim dicta ullam soluta atque cum quas commodi, libero dignissimos expedita fugiat sit?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla laboriosam harum aspernatur, numquam maxime vero quas perferendis quisquam, doloremque et. Corrupti repudiandae sit ducimus accusantium iure animi a consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta enim quam esse ut tempora vero deserunt consequatur placeat, magni ab debitis quasi eveniet repudiandae error at cupiditate excepturi officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed placeat nostrum, magni dolorem vel, iure architecto veniam molestiae distinctio sint est mollitia iusto voluptatibus ipsam soluta excepturi. Ipsam, vero dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dignissimos placeat delectus fuga aliquid, quis reiciendis asperiores corporis molestias deserunt mollitia officia non sit veritatis laudantium expedita iusto laborum explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil ipsa non quis rerum iure molestiae perspiciatis enim dicta ullam soluta atque cum quas commodi, libero dignissimos expedita fugiat sit?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla laboriosam harum aspernatur, numquam maxime vero quas perferendis quisquam, doloremque et. Corrupti repudiandae sit ducimus accusantium iure animi a consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta enim quam esse ut tempora vero deserunt consequatur placeat, magni ab debitis quasi eveniet repudiandae error at cupiditate excepturi officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed placeat nostrum, magni dolorem vel, iure architecto veniam molestiae distinctio sint est mollitia iusto voluptatibus ipsam soluta excepturi. Ipsam, vero dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dignissimos placeat delectus fuga aliquid, quis reiciendis asperiores corporis molestias deserunt mollitia officia non sit veritatis laudantium expedita iusto laborum explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil ipsa non quis rerum iure molestiae perspiciatis enim dicta ullam soluta atque cum quas commodi, libero dignissimos expedita fugiat sit?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nulla laboriosam harum aspernatur, numquam maxime vero quas perferendis quisquam, doloremque et. Corrupti repudiandae sit ducimus accusantium iure animi a consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta enim quam esse ut tempora vero deserunt consequatur placeat, magni ab debitis quasi eveniet repudiandae error at cupiditate excepturi officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed placeat nostrum, magni dolorem vel, iure architecto veniam molestiae distinctio sint est mollitia iusto voluptatibus ipsam soluta excepturi. Ipsam, vero dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dignissimos placeat delectus fuga aliquid, quis reiciendis asperiores corporis molestias deserunt mollitia officia non sit veritatis laudantium expedita iusto laborum explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil ipsa non quis rerum iure molestiae perspiciatis enim dicta ullam soluta atque cum quas commodi, libero dignissimos expedita fugiat sit?</p>
     
 </body>
 </html>
