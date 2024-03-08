@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus? Velit aperiam reiciendis ut excepturi labore sit non aut officiis magni totam explicabo reprehenderit nulla fugiat, earum beatae voluptatem provident.</p>
+
+    <ul>
+        <li><a href="paginasextras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasextras/pag003.html" target="frame">terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, debitis illo suscipit nam quia aliquam nobis dicta odio fugiat sunt officia ducimus animi consequatur voluptatibus quod quis sit voluptate esse!</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nam est nihil provident, molestiae, laudantium rem nulla ex in velit sit. Magni eaque unde temporibus ea eum. Consequatur, nihil sint! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ea unde, atque animi velit praesentium accusamus sapiente nesciunt officiis at maiores corporis ipsam ipsum aspernatur nam optio quasi consequuntur ducimus!</p>" id="tela" name="frame">
+        infelizmente seu navegador nãoécompativel
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum nam est nihil provident, molestiae, laudantium rem nulla ex in velit sit. Magni eaque unde temporibus ea eum. Consequatur, nihil sint! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ea unde, atque animi velit praesentium accusamus sapiente nesciunt officiis at maiores corporis ipsam ipsum aspernatur nam optio quasi consequuntur ducimus!</p>
+</body>
+</html>
